@@ -1,0 +1,14 @@
+server:
+    port: 8060
+    servlet:
+        context-path: /
+
+swagger:
+    enabled: true
+    pathMapping: /dev-api
+
+
+spring:
+    devtools:
+        restart:
+            enabled: true

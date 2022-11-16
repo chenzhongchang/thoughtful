@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>thoughtful</artifactId>
+        <groupId>csj.thoughtful</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>server-revised</artifactId>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.4</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/lib/commons-io-2.4.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.sevenzipjbinding</groupId>
+            <artifactId>sevenzipjbinding</artifactId>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/lib/sevenzipjbinding.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.sevenzipjbinding</groupId>
+            <artifactId>sevenzipjbinding-AllWindows</artifactId>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/lib/sevenzipjbinding-AllWindows.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>e-iceblue</groupId>
+            <artifactId>spire.pdf</artifactId>
+            <version>3.4.2</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/lib/spire.pdf-3.4.2.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>jai_imageio</groupId>
+            <artifactId>jai_imageio</artifactId>
+            <version>1.1-alpha</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/lib/jai_imageio-1.1-alpha.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>swingx</groupId>
+            <artifactId>swingx</artifactId>
+            <version>1.6.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/lib/swingx-1.6.1.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

@@ -1,0 +1,22 @@
+package [daopackage];
+
+import java.util.List;
+import [entitypackage].[entityClass];
+/**
+ * [description]
+ * @author [author]
+ * @date [date]
+ * @dodifyNote
+ * @version 1.0
+ */
+public interface [entityDaoClass] {
+
+	public void add[entityClass]([entityClass] [lowerentity]);
+	
+	public void set[entityClass]([entityClass] [lowerentity]);
+	
+	public List<[entityClass]> list[entityClass]([entityClass] [lowerentity]);
+	
+	public void remove[entityClass]([entityClass] [lowerentity]);
+	
+}

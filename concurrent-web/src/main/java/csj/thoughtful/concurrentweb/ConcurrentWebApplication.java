@@ -1,0 +1,13 @@
+package csj.thoughtful.concurrentweb;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ConcurrentWebApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ConcurrentWebApplication.class, args);
+    }
+
+}

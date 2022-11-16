@@ -1,0 +1,30 @@
+package [daopackage].impl;
+
+import java.util.List;
+
+import [entitypackage].[entityClass];
+import [daopackage].[entityDaoClass];
+
+public class [entityDaoClass]Impl implements [entityDaoClass] {
+
+	public void add[entityClass]([entityClass] [lowerentity]) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void set[entityClass]([entityClass] [lowerentity]) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public List<[entityClass]> list[entityClass]([entityClass] [lowerentity]) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void remove[entityClass]([entityClass] [lowerentity]) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

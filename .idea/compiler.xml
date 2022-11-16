@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="concurrent-web" />
+        <module name="design-pattern" />
+        <module name="server-revised" />
+        <module name="web" />
+        <module name="data-tree" />
+        <module name="thread-pool" />
+        <module name="vipconcurrent" />
+        <module name="qrcode-revised" />
+        <module name="xxl-job-admin" />
+        <module name="baidu-id" />
+      </profile>
+      <profile name="Annotation profile for thoughtful" enabled="true">
+        <sourceOutputDir name="../web/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../web/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mygames" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="qrcode" target="1.8" />
+      <module name="server" target="1.8" />
+      <module name="test" target="1.7" />
+      <module name="test2" target="8" />
+      <module name="xxl-job" target="1.8" />
+      <module name="xxl-job-core" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="concurrent-web" options="" />
+      <module name="data-tree" options="" />
+      <module name="design-pattern" options="-parameters" />
+      <module name="qrcode" options="" />
+      <module name="server" options="" />
+      <module name="vipconcurrent" options="-parameters" />
+      <module name="web" options="" />
+      <module name="xxl-job" options="" />
+      <module name="xxl-job-admin" options="" />
+    </option>
+  </component>
+</project>
